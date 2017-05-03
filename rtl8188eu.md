@@ -3,7 +3,6 @@
 ## Install new driver 
 ```bash
 git clone https://github.com/lwfinger/rtl8188eu
-cd rtl8188eu
 sudo dkms add ./rtl8188eu
 sudo dkms build 8188eu/1.0
 sudo dkms install 8188eu/1.0
