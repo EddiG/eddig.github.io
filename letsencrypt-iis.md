@@ -10,10 +10,10 @@ certbot certonly --manual -d www.yourwebsite.com -d yourwebsite.com
 
 ### Challenge
 
-1. Create a folder `[webapp root]/.well-known/acme-challenge/`. There will be placed the files that necessary to complete challenge.
+1. Create folder `[webapp root]/.well-known/acme-challenge/`. There will be placed the files that necessary to complete challenge.
 
 2. Add a `web.config` file in previously created folder with content:
-```xml
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
   <system.webServer>
